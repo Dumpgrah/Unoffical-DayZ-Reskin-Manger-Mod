@@ -1,21 +1,13 @@
 class CfgPatches
 {
-	class Paintable_stuff
+	class Paintable_stuff_101
 	{
-		units[]=
-		{
-			""
-		};
-		weapons[]=
-		{
-			""
-		};
+		units[]={};
+		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"DZ_Data",
-			"DZ_Weapons_Firearms_MosinNagant",
-			"DZ_Weapons_Firearms_B95"
+			"DZ_Data"
 		};
 	};
 };
@@ -24,7 +16,7 @@ class CfgMods
 	class Paintable_stuff_101
 	{
 		dir="Weapon Reskin Mod Example";
-		name="PaintAble Items";
+		name="Paintable_stuff_101";
 		credits="Dumpgrah,Daemon";
 		author="Dumpgrah";
 		authorID="0";

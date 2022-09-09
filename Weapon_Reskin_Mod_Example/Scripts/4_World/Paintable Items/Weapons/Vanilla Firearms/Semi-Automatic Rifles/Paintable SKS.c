@@ -2,11 +2,11 @@ class SKS extends SKS_Base
 {
 	override void ND_InitTextures()
 	{
-		super.ND_InitTextures()
-		ND_RegisterTextureAndMaterial("Camo", "Weapon Reskin Mod Example\\data\\Firearms\\SKS\\SKS_Camo_Co.paa","dz\\weapons\\firearms\\SKS\\data\\sks_painted.rvmat");
+		super.ND_InitTextures();
+		ND_RegisterTextureAndMaterial("Camo", "Weapon_Reskin_Mod_Example\\data\\Firearms\\SKS\\SKS_Camo_Co.paa","dz\\weapons\\firearms\\SKS\\data\\sks_painted.rvmat");
 		ND_RegisterTextureAndMaterial("Green", "dz\\weapons\\firearms\\SKS\\data\\sks_green_co.paa","dz\\weapons\\firearms\\SKS\\data\\sks_painted.rvmat");
 		ND_RegisterTextureAndMaterial("Black", "dz\\weapons\\firearms\\SKS\\data\\sks_black_co.paa","dz\\weapons\\firearms\\SKS\\data\\sks_painted.rvmat");
-		ND_RegisterTextureAndMaterial("666 SKS", "Weapon Reskin Mod Example\\data\\Firearms\\SKS\\TigerStripBobby\\RedTigerStripedBobbySKS_co.paa","dz\\weapons\\firearms\\SKS\\data\\sks_painted.rvmat");
+		ND_RegisterTextureAndMaterial("666 SKS", "Weapon_Reskin_Mod_Example\\data\\Firearms\\SKS\\TigerStripBobby\\RedTigerStripedBobbySKS_co.paa","dz\\weapons\\firearms\\SKS\\data\\sks_painted.rvmat");
 		ND_RegisterTextureAndMaterial("Strip", "dz\\weapons\\firearms\\SKS\\data\\sks_co.paa","dz\\weapons\\firearms\\SKS\\data\\sks.rvmat");
 	}
 	

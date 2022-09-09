@@ -13,7 +13,7 @@ modded class Weapon_Base
 	}
 	void ND_debug()
 	{
-		m_AvaibleTextures.Debug()
+		m_AvaibleTextures.Debug();
 		m_AvaibleMaterials.Debug();
 		m_AvaibleTextureName.Debug();
 	}
@@ -65,13 +65,13 @@ modded class Weapon_Base
 		Tendancy++;
 		if(Tendancy == m_NDPaint)
 		{
-			Tendancy++
+			Tendancy++;
 		}
 		if (Tendancy >= ND_GetTextureCount())
 		{
 			if(m_NDPaint == 1 && ND_GetTextureCount() > 2)
 			{
-				return 2
+				return 2;
 			}
 			return 1;
 		}
@@ -84,7 +84,7 @@ modded class Weapon_Base
 		if (index < 0 || index >= ND_GetTextureCount()){return;}// Cancel if the texture is not valid
 		m_NDPaint = index;
 		SetSynchDirty();
-		Print("SetTexture " + index)
+		//Print("SetTexture " + index);
 		if(ND_GetTexture(index) != "")
 		{
 			SetObjectTexture(0, ND_GetTexture(index));
@@ -125,7 +125,7 @@ modded class Weapon_Base
         super.OnVariablesSynchronized();
         if (m_NDPaint != m_NDPaintRemote )
 		{
-			Print("OnVariablesSynchronized" + "ND_Paint updated " + m_NDPaint );
+			//Print("OnVariablesSynchronized" + "ND_Paint updated " + m_NDPaint );
             m_NDPaintRemote = m_NDPaint;
             ND_SetTexture(m_NDPaintRemote );
         } 

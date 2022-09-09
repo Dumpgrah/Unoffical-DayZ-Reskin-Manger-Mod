@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Paintable_stuff_101
+	class Weapon_Reskin_Mod_Example
 	{
 		units[]={};
 		weapons[]={};
@@ -13,9 +13,9 @@ class CfgPatches
 };
 class CfgMods
 {
-	class Paintable_stuff_101
+	class Weapon_Reskin_Mod_Example
 	{
-		dir="Weapon Reskin Mod Example";
+		dir="Weapon_Reskin_Mod_Example";
 		name="Paintable_stuff_101";
 		credits="Dumpgrah,Daemon";
 		author="Dumpgrah";
@@ -34,7 +34,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"Weapon Reskin Mod Example\Scripts\4_World"
+					"Weapon_Reskin_Mod_Example\Scripts\4_World"
 				};
 			};
 		};
@@ -69,7 +69,7 @@ class CfgVehicles
 	class Versatile_Spraycan: Spraycan_ColorBase
 	{
 		scope=2;
-		displayName="Versatile Paint Spray Can";
+		displayName="Testing Versatile Paint Spray Can";
 		descriptionShort="A spray can used for painting ojects.";
 		model="\dz\gear\consumables\spraycan.p3d";
 		weight=100;
@@ -81,7 +81,7 @@ class CfgVehicles
 		varQuantityMax=100;
 		hiddenSelectionsTextures[]=
 		{
-			"Weapon Reskin Mod Example\data\RandomSpray.paa"
+			"Weapon_Reskin_Mod_Example\data\RandomSpray.paa"
 		};
 	};
 

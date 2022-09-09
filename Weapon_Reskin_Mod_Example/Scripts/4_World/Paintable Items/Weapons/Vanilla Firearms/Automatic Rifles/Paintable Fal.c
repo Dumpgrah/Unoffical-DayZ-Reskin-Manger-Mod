@@ -2,8 +2,8 @@ modded class FAL_Base
 {
 	override void ND_InitTextures()
 	{
-		super.ND_InitTextures()
-		ND_RegisterTextureAndMaterial("Camo", "Weapon Reskin Mod Example\\data\\Firearms\\Fal\\Fal_Camo_Co.paa","DZ\\weapons\\firearms\\fal\\data\\fal.rvmat");
+		super.ND_InitTextures();
+		ND_RegisterTextureAndMaterial("Camo", "Weapon_Reskin_Mod_Example\\data\\Firearms\\Fal\\Fal_Camo_Co.paa","DZ\\weapons\\firearms\\fal\\data\\fal.rvmat");
 		//ND_RegisterTextureAndMaterial("black", "#(argb,8,8,3)color(0.12,0.12,0.12,1.0,CO)","dz\\\\weapons\\\\firearms\\\\m4\\\\data\\\\m4_body.rvmat");
 		ND_RegisterTextureAndMaterial("Strip", "DZ\\weapons\\firearms\\fal\\data\\fal_co.paa","DZ\\weapons\\firearms\\fal\\data\\fal.rvmat");
 	}

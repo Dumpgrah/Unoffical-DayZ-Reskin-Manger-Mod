@@ -48,7 +48,7 @@ class ActionPaintWeapon101: ActionContinuousBase
 	{
 		Weapon_Base ntarget = Weapon_Base.Cast( action_data.m_Target.GetObject() );
 		PlayerBase target = PlayerBase.Cast(action_data.m_Player);
-		Versatile_Spraycan Spray = action_data.m_MainItem
+		Versatile_Spraycan Spray = action_data.m_MainItem;
 		
 		
 		

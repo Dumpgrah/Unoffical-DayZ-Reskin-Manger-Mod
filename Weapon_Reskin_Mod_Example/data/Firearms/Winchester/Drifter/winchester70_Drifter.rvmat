@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="ndgtemplates\Paintable Items\data\Firearms\Winchester\Drifter\winchester70_Drifter_nohq.paa";
+	texture="Weapon_Reskin_Mod_Example\data\Firearms\Winchester\Drifter\winchester70_Drifter_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="ndgtemplates\Paintable Items\data\Firearms\Winchester\Drifter\winchester70_Drifter_smdi.paa";
+	texture="Weapon_Reskin_Mod_Example\data\Firearms\Winchester\Drifter\winchester70_Drifter_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

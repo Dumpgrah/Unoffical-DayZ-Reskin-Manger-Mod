@@ -2,9 +2,9 @@ modded class Scout_Base
 {
 	override void ND_InitTextures()
 	{
-		super.ND_InitTextures()
+		super.ND_InitTextures();
 		ND_RegisterTextureAndMaterial("Green", "dz\\weapons\\firearms\\scout\\data\\scout_grn_co.paa","dz\\weapons\\firearms\\scout\\data\\scout.rvmat");
-		ND_RegisterTextureAndMaterial("Strip", "dz\\weapons\\firearms\\scout\\data\\scout_co.paa","dz\\weapons\\firearms\\scout\\data\\scout.rvmat")
+		ND_RegisterTextureAndMaterial("Strip", "dz\\weapons\\firearms\\scout\\data\\scout_co.paa","dz\\weapons\\firearms\\scout\\data\\scout.rvmat");
 	}
 	
 	//override void EEOnCECreate()

@@ -2,11 +2,11 @@ modded class B95_base
 {
 	override void ND_InitTextures()
 	{
-		super.ND_InitTextures()
-		ND_RegisterTextureAndMaterial("Camo", "Weapon Reskin Mod Example\\data\\Firearms\\B95\\B95Camo_co.paa","dz\\weapons\\firearms\\B95\\data\\b95_painted.rvmat");
+		super.ND_InitTextures();
+		ND_RegisterTextureAndMaterial("Camo", "Weapon_Reskin_Mod_Example\\data\\Firearms\\B95\\B95Camo_co.paa","dz\\weapons\\firearms\\B95\\data\\b95_painted.rvmat");
 		ND_RegisterTextureAndMaterial("Black", "DZ\\weapons\\firearms\\B95\\data\\b95_black_co.paa","dz\\weapons\\firearms\\B95\\data\\b95_painted.rvmat");
 		ND_RegisterTextureAndMaterial("Green", "DZ\\weapons\\firearms\\B95\\data\\b95_green_co.paa","dz\\weapons\\firearms\\B95\\data\\b95_painted.rvmat");
-		ND_RegisterTextureAndMaterial("Strip", "dz\\weapons\\firearms\\B95\\data\\b95_co.paa","dz\\weapons\\firearms\\B95\\data\\b95.rvmat")
+		ND_RegisterTextureAndMaterial("Strip", "dz\\weapons\\firearms\\B95\\data\\b95_co.paa","dz\\weapons\\firearms\\B95\\data\\b95.rvmat");
 		
 	}
 	

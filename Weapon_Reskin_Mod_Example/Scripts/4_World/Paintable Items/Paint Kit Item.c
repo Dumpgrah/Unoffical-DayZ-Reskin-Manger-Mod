@@ -19,8 +19,8 @@ class Versatile_Spraycan extends Inventory_Base
 	
 	void ND_SetTedancy(int Tendancy = 1)
 	{
-		m_NDPaint = Tendancy
-		SetSynchDirty()
+		m_NDPaint = Tendancy;
+		SetSynchDirty();
 	}
 	
 	int GetNDPaintTendancy()
